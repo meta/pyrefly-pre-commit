@@ -54,7 +54,7 @@ To check type coverage on every commit, add the `pyrefly-coverage-check` hook to
 ```yaml
 repos:
   - repo: https://github.com/facebook/pyrefly-pre-commit
-    rev: <pyrefly version>  # 1.5.0 or later
+    rev: <pyrefly version>  # 1.4.1 or later
     hooks:
       - id: pyrefly-coverage-check
         args: [--fail-under=80]
